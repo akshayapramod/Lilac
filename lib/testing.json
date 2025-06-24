@@ -1,0 +1,285 @@
+{
+    "data": {
+        "type": "customers",
+        "id": "63",
+        "attributes": {
+            "name": "Fathima",
+            "username": "fathima@gmail.com",
+            "email": "Fathima@gmail.com",
+            "email_verified_at": null,
+            "current_team_id": null,
+            "profile_photo_path": null,
+            "profile_photo_id": null,
+            "date_of_birth": "1994-05-20",
+            "phone": "+919645466565",
+            "current_subscription_plan_id": 1,
+            "gender": "female",
+            "fcm_token": "d-HuKbJESG2R8yLP5Y82YS:APA91bHlV7Zyw7Sema7Tba-aQvIAn3M5TdaYs2Mg-XWBoLJQWlt2s7qxYvvRaenQRmswi5MHeu0nElf9sKZpH9n9evzTnWIrDkHq9spE5c7Dgo4L7ZFPtA0",
+            "country_id": null,
+            "country_name": null,
+            "state_id": null,
+            "state_name": null,
+            "city_id": null,
+            "city_name": null,
+            "custom_city_name": null,
+            "address": null,
+            "zip": null,
+            "is_active": true,
+            "coin_balance": 0,
+            "customer_code": "FQ010",
+            "referral_code": "FLIQ-B1J3W5A",
+            "referred_by": null,
+            "referred_id": null,
+            "referred_user_name": "Fathima",
+            "is_premium_customer": true,
+            "is_online": false,
+            "is_profile_preferences_completed": false,
+            "profile_completion_percentage": 25,
+            "is_instagram_connected": 0,
+            "preferred_gender": "women",
+            "selfie_verification_image_path": null,
+            "selfie_verification_image_id": null,
+            "selfie_verification_video_path": null,
+            "selfie_verification_video_id": null,
+            "selfie_verification_uploaded_at": null,
+            "selfie_image_approved_at": null,
+            "selfie_image_approved_by": null,
+            "selfie_video_approved_at": null,
+            "selfie_video_approved_by": null,
+            "account_verified_at": null,
+            "has_unlimited_user_swipe": 0,
+            "last_profile_reminder_at": "2025-06-24 11:22:11",
+            "remaining_swipe_limit": 19,
+            "reset_swipe_limit_at": "2025-06-25 15:05:41",
+            "remaining_super_like_limit": 1,
+            "reset_super_like_limit_at": "2025-07-01 15:05:41",
+            "remaining_flash_message_limit": 2,
+            "reset_flash_message_limit_at": "2025-07-01 15:05:41",
+            "remaining_boost_limit": 1,
+            "reset_boost_limit_at": "2025-07-01 15:05:41",
+            "current_location": "Poolenkara, KL",
+            "current_latitude": "11.21676599",
+            "current_longitude": "75.85960865",
+            "bio_intro_text": null,
+            "height_in_cm": 165,
+            "last_active_at": null,
+            "zodiac_sign_id": null,
+            "zodiac_sign_name": null,
+            "relationship_status_id": 7,
+            "relationship_status_name": "Single",
+            "religion_id": 22,
+            "religion_name": "Other",
+            "drinking_habit_id": 23,
+            "drinking_habit_name": "Occasionally",
+            "smoking_habit_id": 28,
+            "smoking_habit_name": "Smoking",
+            "sexual_orientation_id": 33,
+            "sexual_orientation_name": "Lesbian",
+            "educational_qualification_id": 41,
+            "educational_qualification_name": "Master's Degree",
+            "native_language_id": null,
+            "native_language_name": null,
+            "occupation_id": null,
+            "occupation_name": null,
+            "emotion_id": null,
+            "emotion_updated_at": null,
+            "emotion_name": null,
+            "emotion_icon": null,
+            "emotion_fallback_emoji": null,
+            "filter_my_preferred_gender": null,
+            "filter_preferred_gender": null,
+            "filter_radius_in_km": null,
+            "filter_age_min": null,
+            "filter_age_max": null,
+            "filter_height_in_cm_min": null,
+            "filter_height_in_cm_max": null,
+            "filter_passport_mode_location": "Poolenkara, KL",
+            "filter_passport_mode_latitude": "11.21676599",
+            "filter_passport_mode_longitude": "75.85960865",
+            "filter_native_language_ids": null,
+            "filter_zodiac_sign_ids": null,
+            "is_real_gifts_accepted": false,
+            "is_gender_revealed": false,
+            "is_height_revealed": false,
+            "is_religion_revealed": false,
+            "is_drinking_habit_revealed": false,
+            "is_smoking_habit_revealed": false,
+            "is_sexual_orientation_revealed": false,
+            "is_educational_qualification_revealed": false,
+            "is_personality_traits_revealed": false,
+            "is_lifestyle_activities_revealed": false,
+            "is_contact_discovery_enabled": false,
+            "is_ghost_mode_enabled": true,
+            "is_dark_mode_enabled": false,
+            "is_receiving_push_notifications": true,
+            "is_receiving_flash_messages": true,
+            "is_last_seen_enabled": false,
+            "is_online_status_enabled": false,
+            "is_read_receipts_enabled": false,
+            "is_profile_hidden_from_search": false,
+            "hidden_from_search_at": null,
+            "is_profile_reported": false,
+            "reported_at": null,
+            "is_profile_striked": false,
+            "striked_at": null,
+            "strike_count": 0,
+            "is_profile_blacklisted": false,
+            "blacklisted_at": null,
+            "is_account_suspended": false,
+            "suspended_at": null,
+            "created_by": null,
+            "created_by_name": null,
+            "updated_by": 63,
+            "updated_by_name": "Fathima",
+            "deleted_by": null,
+            "deleted_by_name": null,
+            "created_at": "2025-06-24T05:50:27.000000Z",
+            "updated_at": "2025-06-24T10:06:13.000000Z",
+            "deleted_at": null,
+            "auth_status": {
+                "access_token": "52|0fGzqnDLXV21Js2qJ6FHIuEvQvW1wLeueBh55cud11f9d05b",
+                "token_type": "Bearer",
+                "is_2fa_configured_by_user": false,
+                "is_2fa_verified_by_user": false,
+                "is_email_verification_required": true,
+                "device_meta": {
+                    "type": "web",
+                    "device-name": "HP Pavilion 14-EP0068TU",
+                    "device-os-version": "Linux x86_64",
+                    "browser": "Mozilla Firefox Snap for Ubuntu (64-bit)",
+                    "browser_version": "112.0.2",
+                    "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0",
+                    "screen_resolution": "1600x900",
+                    "language": "en-GB"
+                }
+            },
+            "profile_photo_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/19/conversions/T3RnwW52oZNl87oMY2IEyz30zny4q29dqo0wow0s-default.jpg",
+            "square100_profile_photo_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/19/conversions/T3RnwW52oZNl87oMY2IEyz30zny4q29dqo0wow0s-square100.jpg",
+            "square300_profile_photo_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/19/conversions/T3RnwW52oZNl87oMY2IEyz30zny4q29dqo0wow0s-square300.jpg",
+            "square500_profile_photo_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/19/conversions/T3RnwW52oZNl87oMY2IEyz30zny4q29dqo0wow0s-square500.jpg",
+            "age": 31
+        },
+        "relationships": {
+            "partnerExpectations": {
+                "data": [
+                    {
+                        "type": "partner_expectations",
+                        "id": "1"
+                    }
+                ]
+            },
+            "lifeStyleActivities": {
+                "data": [
+                    {
+                        "type": "life_style_activities",
+                        "id": "77"
+                    }
+                ]
+            },
+            "personalityTraits": {
+                "data": [
+                    {
+                        "type": "personality_traits",
+                        "id": "56"
+                    }
+                ]
+            },
+            "avatars": {
+                "data": [
+                    {
+                        "type": "avatars",
+                        "id": "19"
+                    },
+                    {
+                        "type": "avatars",
+                        "id": "20"
+                    }
+                ]
+            },
+            "userIdentityProof": {
+                "data": []
+            }
+        }
+    },
+    "included": [
+        {
+            "type": "partner_expectations",
+            "id": "1",
+            "attributes": {
+                "name": "Long-term relationship",
+                "icon": "long-term.svg",
+                "trait_type_id": 1,
+                "created_by": 1,
+                "updated_by": 1,
+                "created_at": null,
+                "updated_at": null,
+                "laravel_through_key": 63,
+                "icon_url": "https://test.myfliqapp.com/images/trait-icons/long-term.svg"
+            }
+        },
+        {
+            "type": "life_style_activities",
+            "id": "77",
+            "attributes": {
+                "name": "Yoga",
+                "icon": "yoga.svg",
+                "trait_type_id": 9,
+                "created_by": 1,
+                "updated_by": 1,
+                "created_at": null,
+                "updated_at": null,
+                "laravel_through_key": 63,
+                "icon_url": "https://test.myfliqapp.com/images/trait-icons/yoga.svg"
+            }
+        },
+        {
+            "type": "personality_traits",
+            "id": "56",
+            "attributes": {
+                "name": "Liberal",
+                "icon": null,
+                "trait_type_id": 8,
+                "created_by": 1,
+                "updated_by": 1,
+                "created_at": null,
+                "updated_at": null,
+                "laravel_through_key": 63,
+                "icon_url": null
+            }
+        },
+        {
+            "type": "avatars",
+            "id": "19",
+            "attributes": {
+                "user_id": 63,
+                "is_active": true,
+                "approved_at": "2025-06-24T05:50:28.000000Z",
+                "approved_by": 63,
+                "created_at": "2025-06-24T05:50:28.000000Z",
+                "updated_at": "2025-06-24T05:50:28.000000Z",
+                "deleted_at": null,
+                "image_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/19/conversions/T3RnwW52oZNl87oMY2IEyz30zny4q29dqo0wow0s-default.jpg",
+                "square100_image_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/19/conversions/T3RnwW52oZNl87oMY2IEyz30zny4q29dqo0wow0s-square100.jpg",
+                "square300_image_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/19/conversions/T3RnwW52oZNl87oMY2IEyz30zny4q29dqo0wow0s-square300.jpg",
+                "square500_image_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/19/conversions/T3RnwW52oZNl87oMY2IEyz30zny4q29dqo0wow0s-square500.jpg"
+            }
+        },
+        {
+            "type": "avatars",
+            "id": "20",
+            "attributes": {
+                "user_id": 63,
+                "is_active": true,
+                "approved_at": "2025-06-24T05:50:28.000000Z",
+                "approved_by": 63,
+                "created_at": "2025-06-24T05:50:28.000000Z",
+                "updated_at": "2025-06-24T05:50:29.000000Z",
+                "deleted_at": null,
+                "image_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/20/conversions/TDhH4gWfJkeZ0rf7ma9fKuLmzny4q5qkxes0w8gg-default.jpg",
+                "square100_image_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/20/conversions/TDhH4gWfJkeZ0rf7ma9fKuLmzny4q5qkxes0w8gg-square100.jpg",
+                "square300_image_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/20/conversions/TDhH4gWfJkeZ0rf7ma9fKuLmzny4q5qkxes0w8gg-square300.jpg",
+                "square500_image_url": "https://fliq-test-bucket.s3.ap-south-1.amazonaws.com/20/conversions/TDhH4gWfJkeZ0rf7ma9fKuLmzny4q5qkxes0w8gg-square500.jpg"
+            }
+        }
+    ]
+}

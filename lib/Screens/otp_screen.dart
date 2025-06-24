@@ -6,6 +6,7 @@ import 'package:machine_test/Screens/Messages_Screen.dart';
 import 'package:machine_test/utils/constants.dart';
 import 'package:machine_test/widgets/custom_otp_field.dart';
 import 'package:http/http.dart' as http;
+import 'package:shared_preferences/shared_preferences.dart';
 
 class OTPVerifyScreen extends StatefulWidget {
   const OTPVerifyScreen({super.key, required this.mobile});
@@ -44,6 +45,7 @@ class _OTPVerifyScreenState extends State<OTPVerifyScreen> {
         }
       }
     };
+    var pref = await SharedPreferences.getInstance();
 
     try {
       final response = await http.post(
@@ -60,7 +62,11 @@ class _OTPVerifyScreenState extends State<OTPVerifyScreen> {
         final unwrapped = Japx.decode(decodedJson);
 
         final userId = unwrapped['data']?['id'];
+        final token = unwrapped['data']?['auth_status']!['access_token'];
         print("✅ User ID: $userId");
+        print("✅ Token: $token");
+        pref.setString("userId", userId);
+        pref.setString("token", token);
 
         if (userId != null) {
           Navigator.push(
@@ -113,17 +119,15 @@ class _OTPVerifyScreenState extends State<OTPVerifyScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       backgroundColor: Colors.white,
       body: Padding(
-        padding:
-            const EdgeInsets.only(top: 60, left: 24, right: 24, bottom: 24),
+        padding: const EdgeInsets.only(top: 5, left: 24, right: 24, bottom: 24),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Align(
-              alignment: Alignment.centerLeft,
-              child: Icon(Icons.arrow_back, size: 28),
-            ),
             const SizedBox(height: 40),
             const Text(
               'Enter your verification\ncode',
