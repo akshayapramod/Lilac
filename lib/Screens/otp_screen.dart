@@ -63,8 +63,7 @@ class _OTPVerifyScreenState extends State<OTPVerifyScreen> {
 
         final userId = unwrapped['data']?['id'];
         final token = unwrapped['data']?['auth_status']!['access_token'];
-        print("✅ User ID: $userId");
-        print("✅ Token: $token");
+
         pref.setString("userId", userId);
         pref.setString("token", token);
 
