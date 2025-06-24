@@ -28,7 +28,7 @@ class _MessagesScreenState extends State<MessagesScreen> {
     const String url = '$baseUrl/chat/chat-messages/queries/contact-users';
     SharedPreferences pref = await SharedPreferences.getInstance();
     var token = pref.getString("token") ?? "#";
-    var userId = pref.getString("userId") ?? "#";
+    // var userId = pref.getString("userId") ?? "#";
 
     final headers = {
       'Authorization': 'Bearer $token',
@@ -78,8 +78,8 @@ class _MessagesScreenState extends State<MessagesScreen> {
       final response = await http.get(Uri.parse(url), headers: headers);
 
       if (response.statusCode == 200) {
-        final decodedJson = jsonDecode(response.body);
-        final parsedJson = Japx.decode(decodedJson);
+        // final decodedJson = jsonDecode(response.body);
+        // final parsedJson = Japx.decode(decodedJson);
 
         final chatResponse = UsersContact.fromRawJson(response.body);
         yield chatResponse;
@@ -139,8 +139,7 @@ class _MessagesScreenState extends State<MessagesScreen> {
                                 radius: 28,
                                 child: ClipOval(
                                   child: Image.network(
-                                    story.profilePhotoUrl ??
-                                        'https://via.placeholder.com/150',
+                                    story.profilePhotoUrl,
                                     fit: BoxFit.cover,
                                     width: 56,
                                     height: 56,
@@ -217,8 +216,7 @@ class _MessagesScreenState extends State<MessagesScreen> {
                           leading: CircleAvatar(
                             child: ClipOval(
                               child: Image.network(
-                                user.profilePhotoUrl ??
-                                    'https://via.placeholder.com/150',
+                                user.profilePhotoUrl,
                                 fit: BoxFit.cover,
                                 width: 56,
                                 height: 56,
