@@ -44,8 +44,7 @@ class _MessagesScreenState extends State<MessagesScreen> {
           return {
             "id": user['id'],
             "name": attributes['name'] ?? '',
-            "image": attributes['avatar'] ??
-                'https://via.placeholder.com/150', // fallback image
+            "image": attributes['avatar'] ?? 'https://via.placeholder.com/150',
           };
         }).toList();
 
